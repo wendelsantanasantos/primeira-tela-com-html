@@ -1,0 +1,132 @@
+body{
+    background-color:#0D0D0D;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.bi{
+    color: #fff;
+}
+
+
+#user-container{
+    background-color: #262626;
+    color: #fff;
+    
+}
+
+#user-container h3{
+    font-size: 0.8em ;
+    font-weight: 300;
+    margin: 0;
+}
+
+.bi-person-circle{
+    color: #F2E527;
+    font-size: 50px;
+    margin: 0;
+}
+
+#saldo-container{
+    background-color: #262626;
+    color: #fff;
+    max-width: 300px;
+}
+
+#saldo-container h2{
+    
+    font-weight: 300;
+}
+
+#saldo-container p{
+    background-color: #393939;
+    color: #1ADD00;
+    font-size: 0.8em;
+    font-weight: 500;
+    margin: 0;
+}
+
+.bi-arrow-up-short{
+    color: #1ADD00;
+}
+
+#cards-functions-container{
+    background-color: #1E1E1E;
+    color: #fff;
+}
+
+.cards-functions{
+    background-color: #262626;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column
+
+}
+
+.cards-functions span{
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+}
+
+.cards-functions i{
+    font-size: 25px;
+    text-align: center;
+}
+
+#nav-functions-container{
+    background-color: #F2E527;
+}
+
+.circulo{
+    width: 10px !important;
+    height: 10px !important;
+}
+
+#transacoes-container{
+    background-color: #fff;
+}
+
+#data-circle{
+    width: 50px;
+    height: 50px;
+    background-color: #686868;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.075);
+   
+}
+
+#data-circle span{
+    font-size: 12px;
+}
+
+#info-transacao{
+    font-size: 14px;
+}
+
+#valor-transacao{
+    font-size: 14px;
+}
+
+.icone-footer {
+    width: 50px;
+    height: 50px;
+    transition: all 0.2s ease;
+}
+
+.icone-footer:hover, .selecionado {
+    background-color: #F2E527;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icone-footer:hover i {
+    color: #242424;  
+}
+
+
+
+
+
